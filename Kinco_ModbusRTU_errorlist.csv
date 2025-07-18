@@ -1,0 +1,9 @@
+Bit, Bedeutung, Beschreibung
+0, CRC/Frame Error, The received message is wrong because of CRC error, frame error, etc.
+1, Timeout, Time out
+2, Port Busy, The specified port is busy
+3, Illegal ADDR, Illegal address
+4, Illegal COUNT, Illegal count
+5, Illegal SLAVE, Illegal slave
+6, Reserved, Reserved
+7, Communication Finished, Indicates whether the communication has been finished or not: 0 = not finished, 1 = finished
