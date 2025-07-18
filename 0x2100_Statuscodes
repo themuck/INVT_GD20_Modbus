@@ -1,0 +1,9 @@
+Bitnummer,Binärmaske (B#2#...),Hexmaske,Dezimalwert,Bedeutung
+0,B#2#00000001,0x01,1,Forward running
+1,B#2#00000010,0x02,2,Reverse running
+2,B#2#00000100,0x04,4,Stop
+3,B#2#00001000,0x08,8,Fault
+4,B#2#00010000,0x10,16,POFF state (Power off)
+5,B#2#00100000,0x20,32,Pre-exciting state
+6,B#2#01000000,0x40,64,-- (nicht belegt oder reserviert)
+7,B#2#10000000,0x80,128,-- (nicht belegt oder reserviert)
