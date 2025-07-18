@@ -1,0 +1,44 @@
+Address,Decimal,Access,Description
+0x2000,8192,R/W,"Control command (e.g., 1=Forward, 2=Reverse, 5=Stop)"
+0x2001,8193,R/W,"Set frequency (0–Fmax, 0.01Hz units)"
+0x2002,8194,R/W,PID reference (0–1000 → 100%)
+0x2003,8195,R/W,PID feedback (0–1000 → 100%)
+0x2004,8196,R/W,Torque setting (-3000–3000 → ±100%)
+0x2005,8197,R/W,Upper limit forward frequency (0–Fmax)
+0x2006,8198,R/W,Upper limit reverse frequency (0–Fmax)
+0x2007,8199,R/W,Max motoring torque (0–3000 → 100%)
+0x2008,8200,R/W,Max braking torque (0–3000 → 100%)
+0x2009,8201,R/W,"Special control bits (motor select, torque control, etc.)"
+0x200A,8202,R/W,Virtual input terminal command
+0x200B,8203,R/W,Virtual output terminal command
+0x200C,8204,R/W,Voltage setting (V/F separation)
+0x200D,8205,R/W,AO output setting 1 (-1000–1000 → ±100%)
+0x200E,8206,R/W,AO output setting 2 (-1000–1000 → ±100%)
+0x2100,8448,R,"VFD status word 1 (e.g., running state, fault, etc.)"
+0x2101,8449,R,"VFD status word 2 (motor type, control mode, etc.)"
+0x2102,8450,R,Fault code
+0x2103,8451,R,"VFD identifier (e.g., GD20 = 0x0106)"
+0x3000,12288,R,Output frequency (0.01Hz units)
+0x3001,12289,R,Set frequency (0.01Hz units)
+0x3002,12290,R,Bus voltage (0.1V units)
+0x3003,12291,R,Output voltage (1V units)
+0x3004,12292,R,Output current (0.1A units)
+0x3005,12293,R,Rotating speed (RPM)
+0x3006,12294,R,Output power (-300% to +300%)
+0x3007,12295,R,Output torque (-250% to +250%)
+0x3008,12296,R,PID setting (-100% to +100%)
+0x3009,12297,R,PID feedback (-100% to +100%)
+0x300A,12298,R,Input state
+0x300B,12299,R,Output state
+0x300C,12300,R,AI1 (0–10V)
+0x300D,12301,R,AI2 (0–10V)
+0x300E,12302,R,AI3 (-10–10V)
+0x300F,12303,R,AI4 (Reserved)
+0x3010,12304,R,High-speed pulse input 1 (0–50kHz)
+0x3011,12305,R,High-speed pulse input 2 (Reserved)
+0x3012,12306,R,PLC/multi-speed step
+0x3013,12307,R,External length
+0x3014,12308,R,External count
+0x3015,12309,R,Torque setting (-300% to +300%)
+0x3016,12310,R,VFD identification code
+0x5000,20480,R,Fault code
